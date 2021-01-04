@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+}
+.NavBar{
+  font-size: 30px;
+  font-weight: bold;
+  word-spacing: 40px;
+}
+
+
+.ProductContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ProductContainer .link{
+  box-shadow: 0 0 10px #463636;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+.ProductContainer .link:hover{
+  background-color: lightcoral;
+}
